@@ -9,8 +9,8 @@ This has been updated to work with postgres instead of mysql
  * Backup Jira or Confluence attachments
  * Backup Jira or Confluence database using pg_dump
 
-## jira-backup script
+## atlassian-backup script
 
-Check the bin directory for more details on the `jira-backup` script
+Check the bin directory for more details on the `atlassian-backup` script
 
 ## Puppet module
