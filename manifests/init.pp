@@ -48,6 +48,7 @@ class jirabackup (
   $db_pass,
   $db_user          = 'jira',
   $db_name          = 'jira',
+  $db_dbms,
   $backup_dir       = '/var/atlassian/backups/jira',
   $attachments_path = '/var/atlassian/application-data/jira/data/attachments',
   $app              = 'jira'
@@ -125,6 +126,7 @@ class jirabackup (
 class confluencebackup (
   $db_host,
   $db_pass,
+  $db_dbms,
   $db_user          = 'confluence',
   $db_name          = 'confluence',
   $backup_dir       = '/var/atlassian/backups/confluence',

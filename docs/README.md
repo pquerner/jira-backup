@@ -1,11 +1,11 @@
-# Jira Backup
+# Jira/Confluence Backup
 
-A simple shell script to backup Jira instances according to Atlassian best practices outlined in [Backing Up Data](https://confluence.atlassian.com/display/JIRA052/Backing+Up+Data).
+A simple shell script to backup Jira instances according to Atlassian best practices outlined in [Backing Up Data](https://confluence.atlassian.com/display/JIRA/Backing+Up+Data).
 
 ## Features
 
  * Backup Jira attachments
- * Backup Jira database using pg_dump
+ * Backup Jira database using pg_dump or mysqldump
 
 ## Configuration
 
@@ -44,6 +44,7 @@ Then create the `/etc/jira-backup.conf` file.
     DB_HOST='database hostname'
     DB_USER='jira'
     DB_PASS='databae password'
+    DB_DBMS='mysql OR postgres'
 
 
 ## Usage

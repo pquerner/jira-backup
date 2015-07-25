@@ -1,16 +1,16 @@
 # Jira/Confluence Backup
 
-A simple shell script to backup Jira or Confluence instances according to Atlassian best practices outlined in [Backing Up Data](https://confluence.atlassian.com/display/JIRA052/Backing+Up+Data).
+A simple shell script to backup Jira or Confluence instances according to Atlassian best practices outlined in [Backing Up Data](https://confluence.atlassian.com/display/JIRA/Backing+Up+Data).
 
-This has been updated to work with postgres instead of mysql
+Configurable to either use postgres or mysql to dump the database
 
 ## Features
 
  * Backup Jira or Confluence attachments
- * Backup Jira or Confluence database using pg_dump
+ * Backup Jira or Confluence database using a configurable DBMS
 
 ## atlassian-backup script
 
-Check the bin directory for more details on the `atlassian-backup` script
+Check the 'files' directory for more details on the `atlassian-backup` script
 
 ## Puppet module
